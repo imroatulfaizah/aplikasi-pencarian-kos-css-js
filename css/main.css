@@ -1,0 +1,227 @@
+/**
+	Visit us: Jagowebdev.com
+*/
+
+body {
+	font-family: "open sans", "segoe ui";
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+a {
+	transition: background .3s;
+}
+/* BACKGROUND */
+.background, .backdrop {
+	background-color: #3f689c;
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	background-size: cover;
+}
+
+/* CONTAINER */
+.login-form-container {
+    max-width: 400px;
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+	margin-left: -200px;
+	margin-top: -286px;  
+}
+.login-form-container a{
+	text-decoration:none;
+}
+
+/* CONTENT */
+.login-form-content {
+	background-color: #FFFFFF;
+	padding: 25px 25px;
+}
+.login-form-content i{
+    width: 30px;
+    text-align: center;
+	vertical-align: bottom;
+}
+
+/* HEADER */
+.login-form-header {
+	text-align: center;
+}
+.login-form-header img {
+	border: 1px solid #CCCCCC;
+    padding: 10px;
+    border-radius: 50px;
+}
+.login-form-header h3 {
+	font-weight: lighter;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+/* FROM INPUT */
+.login-form .input-container {
+	border-bottom: 1px solid #CCCCCC;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #9e9e9e;
+	padding-bottom: 5px;
+}
+.login-form .input {
+	border: 0;
+	width: 200px;
+}
+.login-form .input:focus {
+    outline: none;
+}
+#show-password {
+	float: right;
+    vertical-align: bottom;
+    text-align: center;
+    margin-top: 7px;
+	cursor: pointer;
+}
+.login-form .forgot-password {
+	float: right;
+}
+.login-form .rememberme-container {
+	margin-top: 15px;
+	padding: 0;
+}
+.login-form .rememberme-container input {
+	margin-left: 0;
+}
+.login-form .rememberme span {
+	vertical-align: top;
+}
+.login-form .button {
+	margin-top: 15px;
+    width: 100%;
+    background: #2e7ec7;
+    border: 0;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 15px;
+	cursor: pointer;
+	transition: background .3s;
+}
+.login-form .button:hover {
+	background: #1f6eb7;
+}
+.login-form .button:focus {
+	outline: none;
+}
+.login-form .register {
+	margin-top: 5px;
+    background: #CCCCCC;
+    border: 0;
+    color: #676464;
+    padding: 9px;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+}
+.login-form .register:hover	{
+	background: #b7b7b7;
+}
+
+/* ACTIVATION LINK */
+.resend-activation {
+	text-align: center;
+	margin-top: 15px;
+	margin-top: 10px;
+    color: #425384;
+	line-height: 22px;
+}
+.attibution {
+	text-align: center;
+    margin-top: 7px;
+    color: #a5a5a5;
+	line-height: 25px;
+}
+
+/* SEPARATOR */
+.login-form-content .separator {
+	margin: 20px 0;
+	border-top: 1px solid #CCCCCC;
+	position: relative;
+}
+.login-form-content .separator-text {
+	display: block;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -22px;
+    padding: 0px 10px;
+    background: #FFFFFF;
+	color: #8a8a8a;
+}
+
+/* SOCIAL MEDIA LOGIN */
+.socmed-login .socmed-btn {
+    padding: 10px 25px;
+    color: #FFFFFF;
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+}
+.socmed-login .socmed-btn i {
+	text-align: left;
+    border-right: 1px solid #FFFFFF;
+    margin-right: 15px;
+    width: 25px;
+	font-size: 16x;
+	vertical-align: middle;
+}
+.socmed-login .socmed-btn span {
+	display: inline-block;
+    margin-top: 8px;
+    line-height: 0;
+}
+.socmed-login .facebook-btn {
+	background: #3b5998;
+}
+.socmed-login .facebook-btn:hover {
+	background: #324b80;
+}
+.socmed-login .google-btn {
+	background: #ef0a0a;
+}
+.socmed-login .google-btn:hover {
+	background: #d40909;
+}
+.socmed-login .yahoo-btn {
+	background: #940b94;
+}
+.socmed-login .yahoo-btn:hover {
+	background: #790a79;
+}
+
+/* RESPONSIVE */
+@media screen and (max-height: 600px) {
+	.login-form-container {
+		margin-top: 0 !important;
+		top: 10px !important;
+	}
+}
+@media screen and (max-width: 400px) {
+	.login-form-container {
+		left: 5px;
+		margin-left: 5px;
+		min-width: 283px;
+		right: 10px;
+		margin-bottom: 10px;
+		width: auto;
+	}
+	.login-form .input {
+		width: 140px;
+	}
+	.socmed-login .socmed-btn i {
+		margin-right: 5px;
+		width: 19px;
+	}
+}

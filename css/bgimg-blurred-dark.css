@@ -1,0 +1,11 @@
+.background {
+	filter: blur(15px);
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius=5); */
+}
+.backdrop {
+	opacity: .5;
+}

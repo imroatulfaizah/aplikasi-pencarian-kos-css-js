@@ -1,0 +1,5 @@
+.backdrop {
+	background: #333333 url('../img/dot.png');
+	opacity: .8;
+	filter: alpha(opacity=80);
+}
